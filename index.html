@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.wrapper{
+			width: 100%;
+			height: auto;
+			margin: auto;
+		}
+		.header{
+			height: 100px;
+
+		}
+		.logo {
+			float: left;
+			width: 150px;
+			padding: 0PX;
+		}
+		.logo img{
+			width: 205px;
+			display: block;
+		}
+		.search input{
+			float: right;
+			margin-top:0px;
+        	
+		}
+		.search {
+			float: right;
+			display: flex;
+			flex-wrap: nowrap;
+			position: relative;
+			margin: 20px;
+			right: 500px;
+
+        	
+		}
+		.search input[type=text]{width: 250px; height: 30px}
+		.search input[type=submit]{height: 30px}
+		#input1{
+			float: right;
+			width: 300px;
+			height: 25px;
+
+		}
+		.search a {
+	 		float: right;
+			display: flex;
+			flex-wrap: nowrap;
+			position: relative;
+			margin: auto;
+			left: 450px;
+
+	 	}
+	 	.search a img {
+	 		width: 30px;
+
+	 	}
+	 	.search #dangnhap{
+	 		width: 30px;
+	 		height: 30px;
+	 	}
+	 	.search a img{
+	 		float: right;
+			display: flex;
+			flex-wrap: nowrap;
+			position: relative;
+			left: 85px;
+
+	 	}
+	 	.search a p{
+	 		float: right;
+	 		margin: 40px;
+	 	}
+		.menu{	
+			width: 100%		
+			height: 30px;
+			background: pink;
+			border: 1px solid black
+		}
+		.menu ul li{
+			list-style: none;
+			text-align: center;
+			display: inline-table;
+		}
+		.menu ul li a{
+			text-decoration: none;
+			font-size: 16px;
+			margin: 30px;
+			padding: 5px;
+			text-transform: uppercase;
+		}
+		.content{
+			width: 100%;
+			height: 300px;
+			border: 1px solid black
+		}
+		.left{
+			width: 20%;
+			background: gray;
+			height: 300px;
+			float: left;
+		}
+		.right{
+			width: 80%;
+			background:yellow;
+			height: 300px;
+			float:right;
+		}
+		.footer{
+			width: 100%;
+			height: 100px;
+			background: red;
+			border: 1px solid black
+		}
+		
+
+
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo">
+				<a href=""><img src="https://danangjob.vn/Upload/Member/201895164039.jpg "></a>
+				
+			</div>
+			<div class="search">
+				<form>
+					<input type="buton" name="nhap" placeholder="Nhập từ khóa cần tìm" id="input1">
+					<input type="submit" name="search" value="search" id="icon">
+				</form>
+				<a href="account.php">
+					<img src="image/my.png" id="dangnhap"> <br>
+					<p> đăng nhập </p>
+				</a>
+			</div>
+		</div>
+		<div class="menu">
+			<ul>
+				<li> <a href="index.html"> Trang chủ </a> </li>
+				<li> <a href="Admin/view_product.html">Quản lý sản phẩm </a></li>
+				<li><a href="Admin/add_product.html"> Thêm sản phẩm </a> </li>
+				<li><a href="about.html"> Giới thiệu </a></li>
+			</ul>
+		</div>
+		<div class ="content">
+			<div class ="left">
+				<p> Đây là phần bên trái</p>
+			</div>
+			<div class="right">
+
+
+				<p> Đây là nội dung chính </p>
+			</div>
+		</div>
+		<div class="footer">
+			<p> Đây là footer </p>
+		</div>
+	</div>
+</body>
+</html>
